@@ -1,0 +1,5 @@
+pybit==5.9.0
+python-dotenv==1.0.1
+pandas==2.2.3
+ta==0.11.0
+mplfinance==0.12.10b0
