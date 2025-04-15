@@ -21,7 +21,7 @@ class FuturesOrders:
         - получение параметров и фильтров инструмента
         '''
         self.cl = HTTP(
-            testnet=os.getenv('IS_TESTNET', '1'),
+            testnet=os.getenv('IS_TESTNET', 'True'),
             api_key=os.getenv('API_KEY', '1'),
             api_secret=os.getenv('SECRET', '1')
         )
